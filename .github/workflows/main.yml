@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: foresta/actions-sample
+    - name: Hello
+      id: hello
+      uses: foresta/actions-sample@v1
       with:
         username: "foresta"
+    - name: Output time
+      run: echo "The time was ${{ steps.hello.outputs.time }}"
