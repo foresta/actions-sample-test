@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Hello
       id: hello
-      uses: foresta/actions-sample@v1
+      uses: foresta/actions-sample@master
       with:
         username: "foresta"
     - name: Output time
