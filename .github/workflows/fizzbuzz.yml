@@ -1,4 +1,4 @@
-name: CI
+name: FizzBuzz
 
 on: [push]
 
@@ -10,3 +10,5 @@ jobs:
     steps:
     - name: FizzBuzz
       uses: foresta/actions-fizzbuzz@master
+      with:
+        number: 200
