@@ -9,6 +9,6 @@ jobs:
 
     steps:
     - name: FizzBuzz
-      uses: foresta/actions-fizzbuzz@master
+      uses: foresta/actions-fizzbuzz@v1
       with:
         number: 200
