@@ -1,4 +1,4 @@
-name: CI
+name: Actions Sample Test
 
 on: [push]
 
@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: foresta/actions-sample@v1
+    - uses: foresta/actions-sample
       with:
         username: "foresta"
